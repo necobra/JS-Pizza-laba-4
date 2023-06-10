@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    background: rgb(135, 135, 119);
+}
+.gui {
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+/* upper */
+.upper {
+    display: flex;
+    background: rgb(51, 51, 49);
+    width: 100%;
+    height: 70px;
+}
+
+/* upper-title pizza kma */
+.upper-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgb(236, 133, 28);
+    margin-left: 10px;
+    height: 120%;
+}
+
+.upper-title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 0.9rem;
+}
+.title-pizza, .title-kma {
+    color: white;
+    margin-top: 20%;
+}
+
+.title-pizza {
+    font-size: 1.2rem;
+}
+
+.title-kma {
+    font-size: 1.4rem;
+}
+
+.upper-title-tail-img{
+    position: relative;
+    rotate: 180deg;
+    width: 100%;
+    bottom: -15%;
+}
+
+/* upper - main */
+.upper-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.upper-upper {
+    display: flex;;
+    flex-direction: row;
+    color: rgb(113, 113, 111);
+    /*margin-top: 4px;*/
+    width: 100%;
+    height: 48%;
+}
+
+.phone-number, .schedule, .upper-text {
+    white-space: nowrap;
+    padding: 6px 0px;
+}
+.phone-number, .schedule {
+    margin-right: 4%;
+}
+.phone-number {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.schedule {
+    font-size: 0.8rem;
+    padding-top: 8px;
+    font-weight: bold;
+}
+.upper-text {
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+.exit {
+    margin-left: auto;
+}
+.upper-hr {
+    width: 100%;
+    border-style:solid;
+    border-radius: 1px;
+    border-width: 1.1px;
+    border-color: rgb(113, 113, 111);
+    margin: 0px;
+    box-sizing: border-box;
+    height: 1px;
+}
+
+.upper-lower {
+    height: 48%;
+    color: white;
+}
+
+.upper-lower-pizza {
+    padding: 6px 0px;
+    font-size: 1rem;
+}
+/* order menu */
+.order-menu {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    float: right;
+    background: white;
+    height: 100vh;
+}
+.order-title {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background: white;
+    align-items: center;
+}
+.order-title-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+.order-title-left-text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.order-title-left-amount {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(243, 136, 0);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+.order-title-right {
+    display: flex;
+    width: 50%;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    margin: 0px 10px;
+    font-weight: bold;
+    color: gray;
+}
+/* order items */
+.order-main {
+    width: 100%;
+    height: 65%;
+    background: rgb(245, 245, 245);
+}
+
+/* order footer */
+.order-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    background: white;
+    font-weight: bold;
+    padding: 2%;
+}
+.order-footer-upper {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    align-items: center;
+}
+.order-footer-upper-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.order-footer-upper-cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+}
+.order-footer-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+
+}
+.order-btn {
+    padding: 5% 20%;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+}
+/* footer */
+.footer {
+    position: relative;
+    padding-top: 1500px;
+}
