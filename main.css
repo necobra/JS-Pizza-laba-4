@@ -173,6 +173,21 @@ body {
     background: rgb(245, 245, 245);
 }
 
+.oder-item {
+    display: grid;
+    grid-template-areas: 
+    "name img"
+    "stats img"
+    "action img";
+}
+
+.order-item-name {
+    grid-area: name;
+}
+
+.order-item-img{
+    grid-area: img;
+}
 /* order footer */
 .order-footer {
     display: flex;
