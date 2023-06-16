@@ -11,7 +11,7 @@
 
 <body>
     <div class="gui">
-        <!-- <div class="upper">
+        <div class="upper">
             <div class="upper-title">
                 <div class="upper-title-text">
                     <span class="title-pizza">PIZZA</span>
@@ -37,9 +37,13 @@
                 <hr class="upper-hr" />
                 <div class="upper-lower">
                     <div class="upper-lower-pizza">Піца</div>
+                    <div class="exit-hidden">
+                        <button class="exit-btn">Ввійти</button>
+                    </div>
                 </div>
+                
             </div>
-        </div> -->
+        </div>
         <div class="order-menu">
             <div class="order-title">
                 <div class="order-title-left">
@@ -58,45 +62,43 @@
             </div>
             <div class="order-main">
                 <div class="order-item">
-                    <div class="order-item-name">
-                        BBQ (Мала)
-                    </div>
-                    <div class="order-item-stat">
-                        <img src="" alt="size-img">
-                        <div class="size">
-                            30
+                    <div class="order-item-inline-conteiner">
+                        <div class="order-item-name">
+                            BBQ (Мала)
                         </div>
-                        <img src="" alt="weight-img">
-                        <div class="weight">
-                            460
+                        <div class="order-item-stat">
+                            <div class="">
+                                <img src="images/size-icon.svg" alt="size-img">
+                                <div class="size">
+                                    30
+                                </div>
+                            </div>
+                            <div>
+                                <img src="images/weight.svg" alt="weight-img">
+                                <div class="weight">
+                                    460
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="order-item-order">
-                        <div class="oder-item-cost">
-                            556грн
+                        <div class="order-item-order">
+                            <div class="order-item-cost">
+                                556грн
+                            </div>
+                            <button class="order-item-minus">-</button>
+                            <div class="order-item-amount">
+                                4
+                            </div>
+                            <button class="order-item-plus">+</button>
+                            <button class="order-item-cancel">x</button>
                         </div>
-                        <div class="order-item-plus">
-                            <button>+</button>
-                        </div>
-                        <div class="oder-item-amount">
-                            4
-                        </div>
-                        <div class="oder-item-minus">
-                            <button>-</button>
-                        </div>
-                        <div class="oder-item-cancel">
-                            <button>x</button>
-                        </div>
-                    </div>
-                    <div class="order-item-img">
-                        <img src="" alt="pizza">
+                        <img src="images/pizza2-short.png" alt="pizza" class="order-item-img">
                     </div>
                 </div>
                 <div class="order-item">
-
+                    <div class="order-item-inline-conteiner"></div>
                 </div>
                 <div class="order-item">
-
+                    <div class="order-item-inline-conteiner"></div>
                 </div>
             </div>
             <div class="order-footer">
@@ -116,11 +118,263 @@
             </div>
         </div>
     </div>
-
+    <div class="upper-plug"></div>
     <div class="main">
-
+        <div class="main-main">
+            
+            <div class="main-header">
+                <div class="main-header-upper">
+                    <div class="main-header-text">
+                        Усі піци
+                    </div>
+                    <div class="main-header-amount">
+                        8
+                    </div>
+                </div>
+                <div class="main-header-actions">
+                    <div class="action active">
+                        Усі
+                    </div>
+                    <div class="action">
+                        Мясні
+                    </div>
+                    <div class="action">
+                        З ананасами
+                    </div>
+                    <div class="action">
+                        З грибами
+                    </div>
+                    <div class="action">
+                        З морепродуктами
+                    </div>
+                    <div class="action">
+                        Вага
+                    </div>
+                </div>
+            </div>
+            <div class="pizzas">
+                <div class="pizza">
+                    <img src="images/pizza_7.jpg" alt="pizza img" class="pizza-img">
+                    <div class="pizza-no-img">
+                        <div class="pizza-header">
+                            Імпреза
+                        </div>
+                        <div class="pizza-type">
+                            М'ясна піца
+                        </div>
+                        <div class="pizza-text">
+                            Балик, салямі, куриця, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка
+                        </div>
+                        <div class="pizza-actions">
+                            <div class="pizza-action-small">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>30</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>370</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    99
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                            <div class="pizza-action-big">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>40</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>660</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    169
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza">
+                    <img src="images/pizza_7.jpg" alt="pizza img" class="pizza-img">
+                    <div class="pizza-no-img">
+                        <div class="pizza-header">
+                            Імпреза
+                        </div>
+                        <div class="pizza-type">
+                            М'ясна піца
+                        </div>
+                        <div class="pizza-text">
+                            Балик, салямі, куриця, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка
+                        </div>
+                        <div class="pizza-actions">
+                            <div class="pizza-action-small">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>30</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>370</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    99
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                            <div class="pizza-action-big">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>40</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>660</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    169
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza">
+                    <img src="images/pizza_7.jpg" alt="pizza img" class="pizza-img">
+                    <div class="pizza-no-img">
+                        <div class="pizza-header">
+                            Імпреза
+                        </div>
+                        <div class="pizza-type">
+                            М'ясна піца
+                        </div>
+                        <div class="pizza-text">
+                            Балик, салямі, куриця, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка
+                        </div>
+                        <div class="pizza-actions">
+                            <div class="pizza-action-small">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>30</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>370</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    99
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                            <div class="pizza-action-big">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>40</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>660</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    169
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza">
+                    <img src="images/pizza_7.jpg" alt="pizza img" class="pizza-img">
+                    <div class="pizza-no-img">
+                        <div class="pizza-header">
+                            Імпреза
+                        </div>
+                        <div class="pizza-type">
+                            М'ясна піца
+                        </div>
+                        <div class="pizza-text">
+                            Балик, салямі, куриця, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка
+                        </div>
+                        <div class="pizza-actions">
+                            <div class="pizza-action-small">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>30</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>370</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    99
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                            <div class="pizza-action-big">
+                                <div class="pizza-size">
+                                    <img src="images/size-icon.svg" alt="">
+                                    <span>40</span>
+                                </div>
+                                <div class="pizza-weight">
+                                    <img src="images/weight.svg" alt="">
+                                    <span>660</span>
+                                </div>
+                                <span class="pizza-cost">
+                                    169
+                                </span>
+                                <span class="pizza-uah">
+                                    грн.
+                                </span>
+                                <button class="pizza-buy-btn">
+                                    Купити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right-plug"></div>
     </div>
-    <div class="footer">test</div>
+    <!-- <div class="footer">test</div> -->
 </body>
 
 </html>
